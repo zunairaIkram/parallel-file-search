@@ -1,0 +1,36 @@
+{
+    "blocks": [
+        {
+            "type": 0,  # Text block
+            "bbox": [72.0, 72.0, 500.0, 100.0],  # Bounding box of the block (x0, y0, x1, y1)
+            "lines": [
+                {
+                    "bbox": [72.0, 72.0, 500.0, 85.0],  # Bounding box for this line
+                    "spans": [
+                        {
+                            "text": "Hello, world!",  # The text content
+                            "size": 12.0,  # Font size
+                            "font": "Times-Roman",  # Font type
+                            "color": (0, 0, 0),  # RGB color (black)
+                            "bbox": [72.0, 72.0, 150.0, 85.0],  # Bounding box of the span
+                            "flags": 0  # Style flags (normal, bold, italic, etc.)
+                        }
+                    ]
+                },
+                {
+                    "bbox": [72.0, 85.0, 500.0, 100.0],  # Next line's bounding box
+                    "spans": [
+                        {
+                            "text": "This is a test.",  # The text content
+                            "size": 12.0,  # Font size
+                            "font": "Times-Roman",  # Font type
+                            "color": (0, 0, 0),  # RGB color (black)
+                            "bbox": [72.0, 85.0, 150.0, 100.0],  # Bounding box of the span
+                            "flags": 0  # Style flags
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
